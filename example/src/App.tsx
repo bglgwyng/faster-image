@@ -12,7 +12,7 @@ import {
 const size = Dimensions.get('window').width / 3;
 const imageURLs = Array.from(
   { length: 100 },
-  (_, i) => `https://picsum.photos/200/200?random=${4000 + i}`
+  (_, i) => `https://picsum.photos/2000/2000?random=${4000 + i}`
 );
 
 export default function App() {
